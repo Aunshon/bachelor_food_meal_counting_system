@@ -1,0 +1,7 @@
+try {
+            st=conn.createStatement();
+            int n=st.executeUpdate("ALTER TABLE member ADD col int");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e);
+        }
+////This is the code of adding new column in th e database////////
